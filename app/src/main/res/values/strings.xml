@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">QUANTUM PHOTONICS CLUB</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_view_header_text">team@quantumphotonics.club</string>
+    <string name="text_fragment_title">Home</string>
+    <string name="list_fragment_title">Event</string>
+    <string name="pager_fragment_title">About Us</string>
+    <string name="toolbar_icon_description">Icon</string>
+    <string name="placeholder_text">
+        QUANTUM PHOTONICS\n
+        Empower Human Intelligence Worldwide\n
+        through STEM\n
+        We believe all human beings can embrace who they are, can\n
+        define their future, and can change the world, regardless of\n
+        backgrounds, race, ethnicity, gender, religion, social standing,\n
+        income levels etc.\n\n
+        Founder Message\n
+        Welcome to Quantum Photonics Club! \n\n
+        Being consistently touched and inspired by true, unconditional,\n
+        universal love, I know deeply how love dramatically changes my\n
+        entire life. I am very privileged to be raised up with the \n
+        incredible love of my grandparents, a man who devotes his \n
+        life to watching me grow up and a woman who shows a big \n
+        heart and pure kindness to everyone unconditionally.\n
+        Their love literally saves my soul and makes me have\n
+        the strength to conquer all unknown challenges. I am fortunate\n
+        enough to have got the best education opportunities and found my\n
+        true love and passion of physics. I am especially deeply\n
+        obsessed with exploring the truth of nature and life\n
+        using my physics knowledge. With the inspiration of\n
+        my grandfather, who always teaches me to think out of\n
+        boxes, and think beyond the limits of conventional wisdom, and with\n
+        the love of quantum photonics field, I finally got the courage to build\n
+        this beloved Quantum Photonics Club, to pass on his spirit and love,\n
+        starting from April 24th, 2021.\n\n
+        I have to say this is one of the best things in my entire life. Its a\n
+        wonderful experience for me to bring so many brilliant brains to learn\n
+        and share with each other. We have covered multidisciplinary topics -\n
+        quantum physics, neuron photonics, brain-computer interfaces,\n
+        longevity, machine learning, quantum consciousness and beyond. I am\n
+        so inspired by our every room discussions and happy to see we are\n
+        making a difference by sharing our innovative and fascinating ideas\n
+        openly and freely.\n\n
+        Its totally OK if you are not an expert in this field, or you are totally new\n
+        to our topics. You are right at home! No worries - Its our mission to\n
+        I thought what I\d do was I\d pretend I was one of those deaf-mutes.\n
+        help you think big and creative, reach your potential and fulfill your\n
+        dreams. All we ask for everyone is to join us with the deep love of\n
+        nature, life and especially the love itself.\n\n
+        Last but not the least, special thanks for everyone who loves our club\n
+        and shows trust and support when we were at the very beginning. I am\n
+        honored to build with our beloved club continually with all of you. I\n
+        hope Quantum Photonics Club could be a safe place for those we love\n
+        and the ones they love, and I cant wait to have this amazing journey\n
+        with all of you together. \n\n
+        Please feel free to recommend us to anyone awesome and I am sure\n
+        they will end up thanking you very soon enough. Cheers.\n\n
+        With Love,\n
+        Sierra\n
+        June 2rd, 2021 \n
+    </string>
+    <string name="placeholder_text1">
+        Space Medicine and Astronautics \n
+        w Dr Shawna Pandya \n\n
+        Space medicine is the practice of medicine on astronauts in\n
+        outer space whereas astronautical hygiene is the application\n
+        of science and technology to the prevention or control of\n
+        exposure to the hazards that may cause astronaut ill health.\n
+    </string>
+</resources>
