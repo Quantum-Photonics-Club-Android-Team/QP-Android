@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".ProgramOverviewFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp">
+
+        <EditText
+            android:id="@+id/programOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Program Overview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/cardview_light_background">
+
+        <TextView
+            android:id="@+id/rec1"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="For the general public, to learn about the wide range of STEM topics from artificial intelligence to quantum computing"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Fundamental STEM Lectures"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec2"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="116dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Provide exclusive opportunities to the members to connect with tech companies with career and intern positions directly"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="STEM Career Fair"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec3"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="228dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Bring tech enthusiasts to the general public with the latest tech news, to discover innovations, ideas, and aspirations which shape our futurey"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Tech News Forums"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec4"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="340dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Bring academic scientists, researchers to the general public to share state-of-art scholarly STEMM researchers"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Academic Paper Seminars"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/line">
+
+    <TextView
+        android:id="@+id/linetext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Live Interactive STEMM Sessions for Everyone!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/cardview_light_background">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="332dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Mentor/ Mentee Programs"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec5"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="316dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Connect individuals to near-age mentors and role models to better discover potential and develop professional skills"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Professional Networking Events"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec6"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Offer exclusive opportunities to tech professionals to enjoy lite fare, networking in a casual environment"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Fireside Speaker Panels"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rec7"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:text="Bring engineers, entrepreneurs in high-tech field to the general public to discuss how STEMM tackle real-world problem"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background2">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:text="Have no idea which one you fit most?">
+            </TextView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:text="If you are a teenager or a teenager’s parent,\nJoin our xxxxx program to xxxxxx\nIf you are a college student,\nJoin our xxxxx program to xxxxxx\nIf you are a university professor or academic researcher,\nJoin our xxxxx program to xxxxxx\nIf you are a professional working in the STEMM field,\nJoin our xxxxx program to xxxxxx\nIf you are a layman new to the STEMM field,\nJoin our xxxxx program to xxxxxx">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

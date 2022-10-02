@@ -16,8 +16,27 @@
         android:label="@string/list_fragment_title"
         tools:layout="@layout/fragment_list" />
     <fragment
-        android:id="@+id/pagerFragment"
+        android:id="@+id/subitem1"
         android:name="com.moxtar_1s.android.demo.drawer.PagerFragment"
-        android:label="@string/pager_fragment_title"
         tools:layout="@layout/fragment_pager" />
+    <fragment
+        android:id="@+id/subitem2"
+        android:name="com.moxtar_1s.android.demo.drawer.ProgramOverviewFragment"
+        tools:layout="@layout/fragment_program_overview" />
+    <fragment
+        android:id="@+id/subitem3"
+        android:name="com.moxtar_1s.android.demo.drawer.WhyWeExistFragment"
+        tools:layout="@layout/fragment_why_we_exist" />
+    <fragment
+        android:id="@+id/subitem4"
+        android:name="com.moxtar_1s.android.demo.drawer.MilestonesFragment"
+        tools:layout="@layout/fragment_milestones" />
+    <fragment
+        android:id="@+id/subitem5"
+        android:name="com.moxtar_1s.android.demo.drawer.FounderMessageFragment"
+        tools:layout="@layout/fragment_founder_message" />
+    <fragment
+        android:id="@+id/subitem6"
+        android:name="com.moxtar_1s.android.demo.drawer.OurTeamFragment"
+        tools:layout="@layout/fragment_our_team" />
 </navigation>

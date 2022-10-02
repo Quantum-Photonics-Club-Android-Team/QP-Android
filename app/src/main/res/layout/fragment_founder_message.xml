@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".FounderMessageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp">
+
+        <EditText
+            android:id="@+id/foundersmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Founder's Message"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/message_text"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:text="Welcome to Quantum Photonics Club!\n\nBeing consistently touched and inspired by true, unconditional, universal love, I know deeply how love dramatically changes my entire life. I am very privileged to be raised up with the incredible love of my grandparents, a man who devotes his life to watching me grow up and a woman who shows a big heart and pure kindness to everyone unconditionally. Their love literally saves my soul and makes me have the strength to conquer all unknown challenges. I am fortunate enough to have got the best education opportunities and found my true love and passion of physics. I am especially deeply obsessed with exploring the truth of nature and life using my physics knowledge. With the inspiration of my grandfather, who always teaches me to think out of boxes, and think beyond the limits of conventional wisdom, and with the love of quantum photonics field, I finally got the courage to build this beloved Quantum Photonics Club, to pass on his spirit and love, starting from April 24th, 2021.\n\nI have to say this is one of the best things in my entire life. It's a wonderful experience for me to bring so many brilliant brains to learn and share with each other. We have covered multidisciplinary topics - quantum physics, neurophotonics, brain-computer interfaces, longevity, machine learning, quantum consciousness and beyond. I am so inspired by our every room discussions and happy to see we are making a difference by sharing our innovative and fascinating ideas openly and freely.\n\nIt's totally ok if you are not an expert in this field, or you are totally new to our topics. You are right at home! No worries - It's our mission to help you think big and creative, reach your potential and fulfill your dreams. All we ask for everyone is to join us with the deep love of nature, life and especially the love itself.\n\nLast but not the least, special thanks for everyone who loves our club and shows trust and support when we were at the very beginning. I am honored to build with our beloved club continually with all of you. I hope Quantum Photonics Club could be a safe place for those we love and the ones they love, and I can't wait to have this amazing journey with all of you together.\n\nPlease feel free to recommend us to anyone awesome and I am sure they will end up thanking you very soon enough. Cheers.\n\nWith Love,\nSierra\nJune 2rd, 2021" />
+
+
+</LinearLayout>

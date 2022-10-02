@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     btn1.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
-            Intent intent=new Intent(MainActivity.this,LoginActivity.class);
+            Intent intent=new Intent(MainActivity.this,RegisterActivity.class);
             startActivity(intent);
 
           }
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     // appBarConfiguration 自动获取 toolbar 并将各个 Fragment 页面注册到其中
     appBarConfiguration = new AppBarConfiguration
 //                .Builder(navController.getGraph())
-      .Builder(R.id.textFragment, R.id.listFragment, R.id.pagerFragment)
+      .Builder(R.id.textFragment, R.id.listFragment, R.id.subitem1, R.id.subitem2, R.id.subitem3, R.id.subitem4, R.id.subitem5, R.id.subitem6)
       .setDrawerLayout(drawerLayout)
       .build();
     // 将 toolbar 和 navController 关联

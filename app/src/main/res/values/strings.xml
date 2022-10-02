@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">QUANTUM PHOTONICS CLUB</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="navigation_view_header_text">team@quantumphotonics.club</string>
-    <string name="text_fragment_title">Home</string>
-    <string name="list_fragment_title">Event</string>
-    <string name="pager_fragment_title">About Us</string>
-    <string name="toolbar_icon_description">Icon</string>
-    <string name="placeholder_text">
+  <string name="app_name">QUANTUM PHOTONICS CLUB</string>
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="navigation_view_header_text">team@quantumphotonics.club</string>
+  <string name="text_fragment_title">Home</string>
+  <string name="list_fragment_title">Event</string>
+  <string name="pager_fragment_title">About Us</string>
+  <string name="toolbar_icon_description">Icon</string>
+  <string name="placeholder_text">
         QUANTUM PHOTONICS\n
         Empower Human Intelligence Worldwide\n
         through STEM\n
@@ -59,7 +59,7 @@
         Sierra\n
         June 2rd, 2021 \n
     </string>
-    <string name="placeholder_text1">
+  <string name="placeholder_text1">
         Space Medicine and Astronautics \n
         w Dr Shawna Pandya \n\n
         Space medicine is the practice of medicine on astronauts in\n
@@ -67,4 +67,13 @@
         of science and technology to the prevention or control of\n
         exposure to the hazards that may cause astronaut ill health.\n
     </string>
+  <string name="title_activity_register">RegisterActivity</string>
+  <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label">First Fragment</string>
+  <string name="second_fragment_label">Second Fragment</string>
+  <string name="next">Next</string>
+  <string name="previous">Previous</string>
+
+  <string name="hello_first_fragment">Hello first fragment</string>
+  <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

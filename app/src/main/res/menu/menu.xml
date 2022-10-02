@@ -24,6 +24,30 @@
         <item
             android:id="@+id/pagerFragment"
             android:icon="@drawable/ic_looks_three"
-            android:title="@string/pager_fragment_title" />
+            android:title="@string/pager_fragment_title"
+            app:showAsAction="never">
+            <menu
+                android:id="@+id/aboutUsMenu">
+            <item android:id="@+id/subitem1"
+                android:title="What do we do"
+                android:icon="@drawable/ic_looks_one"/>
+            <item android:id="@+id/subitem2"
+                android:title="Program Overview"
+                android:icon="@drawable/ic_looks_two"/>
+            <item android:id="@+id/subitem3"
+                android:title="Why we exist"
+                android:icon="@drawable/ic_looks_three"/>
+            <item android:id="@+id/subitem4"
+                android:title="Milestones"
+                android:icon="@drawable/ic_looks_four"/>
+            <item android:id="@+id/subitem5"
+                android:title="Founder's message"
+                android:icon="@drawable/ic_looks_five"/>
+            <item android:id="@+id/subitem6"
+                android:title="Our team"
+                android:icon="@drawable/ic_looks_six"/>
+            </menu>
+        </item>
     </group>
+
 </menu>
